@@ -1,3 +1,3 @@
-# Pablo Settecase Website (Resume)
+# Pablo Settecase Website (Freelancer Template)
 
-Website made with the "Resume" bootstrap template at https://startbootstrap.com/theme/resume
+Website made with the "Freelancer" bootstrap template at https://startbootstrap.com/theme/freelancer
