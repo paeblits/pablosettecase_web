@@ -42,7 +42,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 26, 188, 156;
+  --bs-primary-rgb: 221, 61, 49;
   --bs-secondary-rgb: 44, 62, 80;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -10968,7 +10968,7 @@ html {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
+  padding-top: calc(1rem + 34px);
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
@@ -10984,11 +10984,11 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: calc(1rem + 64px);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
@@ -11077,4 +11077,9 @@ img#profile {
 
 a.size250 {
   width: 250px;
+}
+
+.mylinks h3, .mylinks p {
+  color: white;
+  text-decoration: none;
 }
