@@ -17,23 +17,6 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">Pablo Settecase</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#experience">Software Engineer</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#photography">Photography</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
         <!-- Masthead-->
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
@@ -51,13 +34,31 @@
             </div>
             <div class="container">
                 <div class="row justify-content-md-center">
-                  <div class="col-sm-auto">
-                    <a class="size250 btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder mb-3" href="#experience">Software Engineer</a>
-                  </div>
-                  <div class="col-sm-auto">
-                    <a class="size250 btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder mb-3" href="#photography">Photography</a>
+                
+                  <!-- software engineer button -->
+                  <div class="col-md-auto">
+                    <a class="size300 btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder mb-3" href="#experience">Software Engineering</a>
                   </div>
                 </div>
+                <div class="row justify-content-md-center">
+                  <!-- photography button -->
+                  <div class="col-md-auto">
+                    <a class="size300 btn btn-danger btn-lg px-5 py-3 fs-6 fw-bolder mb-3" href="#photography">Photography</a>
+                  </div>
+                </div>
+                <!-- contact button -->
+                <div class="row justify-content-md-center">
+                  <div class="col-md-auto">
+                    <a class="size300 btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder mb-3" href="#contact">Contact</a>
+                  </div>
+                </div>
+                <!-- links button -->
+                <div class="row justify-content-md-center">
+                    <div class="col-md-auto">
+                      <a class="size300 btn btn-secondary btn-lg px-5 py-3 fs-6 fw-bolder mb-3" href="https://links.pablosettecase.com/">Links</a>
+                    </div>
+                  </div>
+            </div>
             </div>
         </header>
         <div class="container p-0">
@@ -150,7 +151,7 @@
             <section class="resume-section" id="contact">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Contact</h2>
-                    <p>You can contact me via email at <a href="mailto:pablosettecase1@gmail.com">pablosettecase1@gmail.com</a> or via <a href="https://www.linkedin.com/in/pablo-martin-settecase/">LinkedIn</a>.</p>
+                    <p>For inquiries relating to software engineering, contact me via email at <a href="mailto:pablosettecase1@gmail.com">pablosettecase1@gmail.com</a> or via <a href="https://www.linkedin.com/in/pablo-martin-settecase/">LinkedIn</a>. For photography inquiries you can also contact me via email or via my <a href="https://pablosettecasephotography.mypixieset.com/contact/">photography website contact form</a>.</p>
                 </div>
             </section>
         </div>
@@ -176,6 +177,7 @@
                     <!-- Footer Social Icons-->
                     <div class="col-lg-6 mb-6 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Links</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://links.pablosettecase.com/"><i class="fa-solid fa-link"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/pablo-martin-settecase/"><i class="fab fa-fw fa-linkedin-in"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="https://pablosettecasephotography.mypixieset.com/"><i class="fa-solid fa-camera"></i></a>
                     </div>
@@ -185,17 +187,12 @@
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Pablosettecase.com 2023</small></div>
+            <div class="container"><small><p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> pablosettecase.com</p></small></div>
         </div>
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="js/myscript.js"></script>
     </body>
 </html>

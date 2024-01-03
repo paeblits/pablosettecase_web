@@ -10968,7 +10968,7 @@ html {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
+  padding-top: calc(1rem + 5px);
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
@@ -10984,7 +10984,7 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: calc(1rem + 1px);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
@@ -11077,4 +11077,8 @@ img#profile {
 
 a.size250 {
   width: 250px;
+}
+
+a.size300 {
+  width: 300px;
 }
